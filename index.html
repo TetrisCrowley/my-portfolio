@@ -1,9 +1,257 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>The Best Portfolio Ever</title>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text|Montserrat" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container-fluid">
 
+    <!-- Add English/Japanese function -->
+
+    <header>  <!-- possibly change to navbar? -->
+      <div class="row">
+        <div class="navbar col-md-4">
+         <a href="#home"><button type="button" class="btn btn-default">Home</button></a>
+         <a href="#about"><button type="button" class="btn btn-default">About</button></a>
+         <a href="#projects"><button type="button" class="btn btn-default">Projects</button></a>
+         <a href="#skills"><button type="button" class="btn btn-default">Skills</button></a>
+        </div>
+       
+        <div class="name col-md-8">
+           <h4>Steve Brennison | Chicago based Web Developer</h4>
+        </div>
+      </div>
+
+    </header>
+
+<div style="height: 55px"></div>
+<section id="home" class="home-section">
+    <!-- <a id="home"></a> -->
+
+<!-- Background pic -->
+  <div id="background">
+    <img src="https://s22.postimg.cc/k9kjuwefl/porfoliobckgrd.jpg">
+  </div>
+
+<!-- About -->
+  <div id="about">
+    <h1>ABOUT</h1>
+    <div class="row">
+      <div class="about col-md-6">
+        <!-- Profile pic -->
+      </div>
+      <div class="about col-md-6">
+        <h4>Greetings! They call me Steve (usually).</h4>
+
+          <p>I am an outgoing and energetic free spirit with a thirst for knowledge. I am an actor, food enthusiast, adaptable, work well under pressure, and see failure as just another learning experience. I believe that anything is possible through cooperation, determination, and being able to keep a good sense of humor. I am a former career server turned web developer, playing with front and back end. When not trying to make people laugh, I hope to create something wonderful.</p>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="quote">
+    <h5>"If you work hard, and you’re kind, amazing things will happen." <br>- Conan O'Brien</h5><br>
+  </div>
+
+
+
+<!-- Projects -->
+  <div id="projects">
+    <h1>PROJECTS</h1>
+      <div class="row">
+
+        <div class="title">
+          <h3>Tetris Clone</h3>
+        </div>
+        <div class="projects col-md-6">
+          <img class="image" src="https://s33.postimg.cc/7n79qz6yn/Screen_Shot_2018-08-23_at_11.34.11_AM.png">
+        </div>
+
+        <div class="projects col-md-6">
+          <p>Made with JavaScript, jQuery, and love. This was my very first coding project. And was surprisingly difficult to ...piece together. I'll see myself out.</p>
+        </div>
+
+
+        <div class="title">
+          <h3>The Restauranteur</h3>
+        </div>
+        <div class="projects col-md-6">
+          <img class="image" src="https://s33.postimg.cc/gjvu0b1rz/Screen_Shot_2018-08-23_at_2.05.02_PM.png">
+        </div>
+
+        <div class="projects col-md-6">
+          <p>Made with Node, Express, and mongoDB. We wanted to make a mock-restaurant app where you can create orders by selecting items off a (very silly) menu and place an order.</p>
+        </div>
+
+
+        <div class="title">
+          <h3>The Chicago Taco Database</h3>
+        </div>
+        <div class="projects col-md-6">
+          <img class="image" src="https://s33.postimg.cc/mvx74rvi7/Screen_Shot_2018-08-23_at_11.37.50_AM.png">
+        </div>
+
+        <div class="projects col-md-6">
+          <p>Made with Express, mongoDB, and React. Love tacos? Live in Chicago? Well the CTDB is here to help. The idea here was to create a definitive ranking of tacos in Chicago so you could find the best (or worst) taco you desire.</p>
+        </div>
+
+
+        <div class="title">
+          <h3>Do Stuff</h3>
+        </div>
+        <div class="projects col-md-6">
+          <img class="image" src="https://s33.postimg.cc/to1ed01jj/Screen_Shot_2018-08-23_at_2.19.07_PM.png">
+        </div>
+
+        <div class="projects col-md-6">
+          <p>Made with Django and React. The idea here was to make a straightforward event scheduling app. Users can look at one of twelve categories of events going on in their area, and add said events to their profile. Events then appear in a chronological list, without needing to get even a calendar involved.</p>
+        </div>
+
+
+        <div class="title">
+          <h3>AROO</h3>
+        </div>
+        <div class="projects col-md-6">
+          <!-- Picture -->
+        </div>
+
+        <div class="projects col-md-6">
+          <p>Made with Django, React, and an unhealthy enthusiasm for puppers. A friend who runs a dog walking business told me that she wished there was a dog park finder. So that's what this is.</p>
+        </div>
+      </div>
+  </div>
+
+
+
+<!-- Skills -->
+  <div id="skills">
+    <h1>SKILLS</h1>
+    <div class="row">
+      
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class='devicon-css3-plain dev-icons'></i>
+            <p class="icon-text">CSS3</p>
+          </div>
+        </div>
+
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-html5-plain dev-icons"></i>
+            <p class="icon-text">HTML5</p>
+          </div>
+        </div>
+
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-javascript-plain dev-icons"></i>
+            <p class="icon-text">JavaScript</p>
+          </div>
+        </div>
+      
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-jquery-plain dev-icons"></i>
+            <p class="icon-text">jQuery</p>
+          </div>
+        </div>
+
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-nodejs-plain dev-icons"></i>
+            <p class="icon-text">nodeJS</p>
+          </div>
+        </div>
+    
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-express-original dev-icons"></i>
+            <p class="icon-text">Express</p>
+          </div>
+        </div>
+
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-mongodb-plain dev-icons"></i>
+            <p class="icon-text">mongoDB</p>
+          </div>
+        </div>
+    
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-python-plain dev-icons"></i>
+            <p class="icon-text">Python</p>
+          </div>
+        </div>
+
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-django-plain dev-icons"></i>
+            <p class="icon-text">Django</p>
+          </div>
+        </div>
+ 
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-react-original dev-icons"></i>
+            <p class="icon-text">React</p>
+          </div>
+        </div>
+
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-bootstrap-plain black dev-icons"></i>
+            <p class="icon-text">Bootstrap</p>
+          </div>
+        </div>
+  
+        <div class="icons col-md-3">
+          <div class="skill-square">
+            <i class="devicon-postgresql-plain dev-icons"></i>
+            <p class="icon-text">PostgreSQL</p>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+
+
+
+    <footer>
+      <div class="contact">
+        <a href="https://github.com/TetrisCrowley" title="My Github" class="fa fa-github contact-icons fa-lg" target="_blank" style="filter: invert(0%);">
+        </a>
+       <a href="mailto: sbrennison@gmail.com?Subject=Greetings%20Steve" title="Email me" class="fa fa-envelope contact-icons fa-lg" target="_blank" style="filter: invert(0%);">
+        </a>
+        <a href="https://www.linkedin.com/in/stevebrennison/" title="My LinkedIn" class="fa fa-linkedin contact-icons fa-lg" target="_blank" style="filter: invert(0%);">
+       </a>
+      </div>
+    </footer>
+
+
+
+
+  </div>
+<script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>
+
+
