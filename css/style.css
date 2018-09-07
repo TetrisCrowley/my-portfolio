@@ -86,6 +86,7 @@ h3 {
 
 img {
   outline: 1px solid black;
+  text-shadow: 4px 4px;
 }
 
 .projects {
@@ -103,7 +104,7 @@ img {
 
 .icon-text {
   text-align: center;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 /*#django {
