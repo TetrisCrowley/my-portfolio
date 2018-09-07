@@ -77,11 +77,13 @@ h3 {
   margin-top: 40px;
 }
 
-.image {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  min-height: 100%;
+@media(max-height: 100%){
+  .image {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-height: 100%;
+  }
 }
 
 img {
